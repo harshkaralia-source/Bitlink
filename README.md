@@ -17,21 +17,20 @@ Bitlink is a modern URL shortener built with Next.js. It allows users to convert
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/yourusername/bitlink.git
-cd bitlink
+git clone https://github.com/yourusername/Bitlink.git
+cd Bitlink
 ```
 
 ### 2. Install Dependencies
 ```sh
-yarn install  # or npm install
+npm install
 ```
 
 ### 3. Set Up Environment Variables
 Create a `.env.local` file and add the required variables:
 ```
-DATABASE_URL=<your-database-url>
-NEXTAUTH_SECRET=<your-secret-key>
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
+MONGODB_URI=<your-database-url>
+NEXT_PUBLIC_HOST=http://localhost:3000
 ```
 
 ### 4. Run the Development Server
@@ -42,7 +41,6 @@ Visit `http://localhost:3000` to see the app.
 
 ## Deployment
 - Deploy on Vercel: `vercel deploy`
-- Deploy on DigitalOcean / AWS using Docker or PM2
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
